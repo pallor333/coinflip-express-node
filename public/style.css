@@ -1,0 +1,71 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* Added background gradient */
+    font-family: 'Arial', sans-serif; 
+
+}
+
+h1{
+    font-size: 2em;
+    color: #8e44ad;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+    margin: 20px;
+    background: #e8f5e9; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow */
+
+}
+img {
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    /* gap: 10px; */
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #4CAF50; /* Added border */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Added border-color transition */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+
+}
+button:hover {
+    background-color: #45a049;
+    border-color: #45a049; /* Change border color on hover */
+}
+
+#results {
+    display: flex;
+    gap: 10px;
+    color: #333; /* Added color */
+    margin-bottom: 20px; /* Added margin */
+    padding: 10px; /* Added padding */
+    border-radius: 5px; /* Added border radius */
+    min-height: 200px; /* Added to prevent movement*/
+    overflow-y: auto; /* Overflow handling prevents box from moving upon button click*/
+}
+
+p{
+    margin: 0 10px;
+}
